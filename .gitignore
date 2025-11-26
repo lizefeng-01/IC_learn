@@ -1,0 +1,23 @@
+# --- VCS 仿真产物 ---
+csrc/
+simv
+simv.daidir/
+*.daidir/
+ucli.key
+vc_hdrs.h
+
+# --- 临时日志文件 ---
+*.log
+
+# --- 你的仿真运行目录 ---
+# 如果 sim 文件夹里全是临时生成的，建议直接忽略整个文件夹
+sim/
+
+# --- 波形文件 (如果以后有) ---
+*.fsdb
+*.vpd
+*.vcd
+
+# --- Verdi 产生的临时文件夹 ---
+novas.*
+verdiLog/
