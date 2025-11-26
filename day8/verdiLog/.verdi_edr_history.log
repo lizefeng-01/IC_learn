@@ -1,0 +1,14 @@
+2025/11/25:14:11:55 EDR auto_save is skipped.
+2025/11/25:14:11:56 Status code of request /api/get/dspath : 
+2025/11/25:14:11:56 Error Message: Network unreachable
+2025/11/25:14:11:56 Status code of request /api/get/sig_catgs: 
+2025/11/25:14:11:56 Error Message: Network unreachable
+2025/11/25:14:11:56 Status code of request /api/get/auto_save: 
+2025/11/25:14:11:56 Error Message: Network unreachable
+2025/11/25:14:12:05 EDR auto_save is skipped.
+2025/11/25:14:12:06 Status code of request /api/get/dspath : 
+2025/11/25:14:12:06 Error Message: Network unreachable
+2025/11/25:14:12:06 Status code of request /api/get/sig_catgs: 
+2025/11/25:14:12:06 Error Message: Network unreachable
+2025/11/25:14:12:06 Status code of request /api/get/auto_save: 
+2025/11/25:14:12:06 Error Message: Network unreachable

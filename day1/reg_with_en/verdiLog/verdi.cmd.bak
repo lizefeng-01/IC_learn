@@ -1,0 +1,20 @@
+verdiSetActWin -dock widgetDock_<Message>
+simSetSimulator "-vcssv" -exec "/home/yian/IC_learn/day1/reg_with_en/simv" -args
+debImport "-dbdir" "/home/yian/IC_learn/day1/reg_with_en/simv.daidir"
+debLoadSimResult /home/yian/IC_learn/day1/reg_with_en/wave.fsdb
+wvCreateWindow
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcSelect -signal "clk" -line 6 -pos 1 -win $_nTrace1
+srcSelect -signal "rst_n" -line 7 -pos 1 -win $_nTrace1
+srcDeselectAll -win $_nTrace1
+srcSelect -signal "clk" -line 6 -pos 1 -win $_nTrace1
+srcSelect -signal "rst_n" -line 7 -pos 1 -win $_nTrace1
+srcSelect -signal "en" -line 8 -pos 1 -win $_nTrace1
+srcSelect -signal "d" -line 9 -pos 1 -win $_nTrace1
+srcSelect -signal "q" -line 10 -pos 1 -win $_nTrace1
+wvCreateWindow
+wvSetPosition -win $_nWave3 {("G1" 0)}
+wvOpenFile -win $_nWave3 {/home/yian/IC_learn/day1/reg_with_en/wave.fsdb}
+srcAddSelectedToWave -clipboard -win $_nTrace1
+wvDrop -win $_nWave3
+wvZoomAll -win $_nWave3

@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1764071821.299229527, "rt":22.77, "ut":18.77, "st":1.15}}
+{"vcselab":{"timestamp_begin":1764071844.442270648, "rt":0.81, "ut":0.42, "st":0.22}}
+{"link":{"timestamp_begin":1764071845.443446170, "rt":1.33, "ut":0.69, "st":0.43}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1764071819.317357611}
+{"VCS_COMP_START_TIME": 1764071819.317357611}
+{"VCS_COMP_END_TIME": 1764071847.264625642}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -debug_access+all -kdb -ntb_opts uvm ./src/bus_item.sv ./src/bus_sequencer.sv ./src/bus_driver.sv ./src/my_seq.sv ./src/my_test.sv ./src/top.sv -o ./sim/simv"}
+{"vcs1": {"peak_mem": 544476}}
+{"vcselab": {"peak_mem": 237556}}

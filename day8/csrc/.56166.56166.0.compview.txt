@@ -1,0 +1,9 @@
+{"vcs1":{"timestamp_begin":1764078184.826393121, "rt":27.73, "ut":23.25, "st":1.06}}
+{"vcselab":{"timestamp_begin":1764078212.776948608, "rt":0.73, "ut":0.40, "st":0.18}}
+{"link":{"timestamp_begin":1764078213.743249004, "rt":2.07, "ut":1.22, "st":0.43}}
+{"SNPS_VCS_INTERNAL_ROOT_START_TIME": 1764078183.164447166}
+{"VCS_COMP_START_TIME": 1764078183.164447166}
+{"VCS_COMP_END_TIME": 1764078216.176928218}
+{"VCS_USER_OPTIONS": "-full64 -sverilog -ntb_opts uvm +incdir+/home/yian/IC_learn/day8/src +timescale+1ns/1ps /home/yian/IC_learn/day8/src/bus_if.sv /home/yian/IC_learn/day8/src/bus_pkg.sv /home/yian/IC_learn/day8/src/design.sv /home/yian/IC_learn/day8/src/top.sv -debug_access+all -kdb -o /home/yian/IC_learn/day8/sim/simv -l /home/yian/IC_learn/day8/sim/comp.log"}
+{"vcs1": {"peak_mem": 544232}}
+{"vcselab": {"peak_mem": 253996}}

@@ -1,0 +1,60 @@
+Command: /home/yian/IC_learn/day8/sim/simv -l /home/yian/IC_learn/day8/sim/run.log
+Chronologic VCS simulator copyright 1991-2023
+Contains Synopsys proprietary information.
+Compiler version V-2023.12-SP2_Full64; Runtime version V-2023.12-SP2_Full64;  Nov 25 06:18 2025
+----------------------------------------------------------------
+UVM-1.1d.Synopsys
+(C) 2007-2013 Mentor Graphics Corporation
+(C) 2007-2013 Cadence Design Systems, Inc.
+(C) 2006-2013 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_MUST_HAVE_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+*Verdi* Loading libsscore_vcs202312.so
+FSDB Dumper for VCS, Release Verdi_V-2023.12-SP2, Linux x86_64/64bit, 05/26/2024
+(C) 1996 - 2024 by Synopsys, Inc.
+*Verdi* : Create FSDB file 'day8.fsdb'
+*Verdi* : Begin traversing the scope (top), layer (0).
+*Verdi* : End of traversing.
+UVM_INFO @ 0: reporter [RNTST] Running test my_test...
+UVM_ERROR /home/yian/IC_learn/day8/src/bus_scoreboard.sv(21) @ 5: uvm_test_top.env.scb [SCB] Mismatch: a=193 b=72 DUT=9 exp=265
+UVM_INFO /home/yian/IC_learn/day8/src/bus_scoreboard.sv(26) @ 15: uvm_test_top.env.scb [SCB] PASS: a=17 b=147 sum=164
+UVM_INFO /home/yian/IC_learn/day8/src/bus_scoreboard.sv(26) @ 25: uvm_test_top.env.scb [SCB] PASS: a=22 b=198 sum=220
+UVM_ERROR /home/yian/IC_learn/day8/src/bus_scoreboard.sv(21) @ 35: uvm_test_top.env.scb [SCB] Mismatch: a=247 b=202 DUT=193 exp=449
+UVM_ERROR /home/yian/IC_learn/day8/src/bus_scoreboard.sv(21) @ 45: uvm_test_top.env.scb [SCB] Mismatch: a=239 b=206 DUT=189 exp=445
+UVM_ERROR /home/yian/IC_learn/day8/src/bus_scoreboard.sv(21) @ 55: uvm_test_top.env.scb [SCB] Mismatch: a=226 b=234 DUT=204 exp=460
+UVM_ERROR /home/yian/IC_learn/day8/src/bus_scoreboard.sv(21) @ 65: uvm_test_top.env.scb [SCB] Mismatch: a=175 b=92 DUT=11 exp=267
+UVM_INFO /home/yian/IC_learn/day8/src/bus_scoreboard.sv(26) @ 75: uvm_test_top.env.scb [SCB] PASS: a=175 b=42 sum=217
+UVM_ERROR /home/yian/IC_learn/day8/src/bus_scoreboard.sv(21) @ 85: uvm_test_top.env.scb [SCB] Mismatch: a=151 b=210 DUT=105 exp=361
+UVM_INFO /home/yian/IC_learn/day8/src/bus_scoreboard.sv(26) @ 95: uvm_test_top.env.scb [SCB] PASS: a=27 b=226 sum=253
+UVM_INFO /home/yian/Synopsys/vcs/V-2023.12-SP2/etc/uvm/base/uvm_objection.svh(1274) @ 95: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    6
+UVM_WARNING :    0
+UVM_ERROR :    6
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[SCB]    10
+[TEST_DONE]     1
+$finish called from file "/home/yian/Synopsys/vcs/V-2023.12-SP2/etc/uvm/base/uvm_root.svh", line 437.
+$finish at simulation time                   95
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 95
+CPU Time:      0.710 seconds;       Data structure size:   0.5Mb
+Tue Nov 25 06:18:14 2025

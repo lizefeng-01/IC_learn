@@ -1,0 +1,3 @@
+Command Line: /home/yian/Synopsys/verdi/V-2023.12-SP2/platform/LINUXAMD64/bin/Novas -ssf wave.fsdb
+uname(Linux localhost.localdomain 4.18.0-553.22.1.el8_10.x86_64 #1 SMP Wed Sep 11 18:02:00 EDT 2024 x86_64)
+Signal SIGHUP is received. Shutting down...
