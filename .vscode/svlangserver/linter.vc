@@ -1,0 +1,21 @@
+-v d:\APP\APP_code\VM_share\IC_learn\day8\src\bus_pkg.sv
++incdir+d:\APP\APP_code\VM_share\IC_learn\day1\D
++incdir+d:\APP\APP_code\VM_share\IC_learn\day1\fsm
++incdir+d:\APP\APP_code\VM_share\IC_learn\day1\reg_with_en
++incdir+d:\APP\APP_code\VM_share\IC_learn\day2\rtl
++incdir+d:\APP\APP_code\VM_share\IC_learn\day2\sim
++incdir+d:\APP\APP_code\VM_share\IC_learn\day5
++incdir+d:\APP\APP_code\VM_share\IC_learn\day6
++incdir+d:\APP\APP_code\VM_share\IC_learn\day7\src
++incdir+d:\APP\APP_code\VM_share\IC_learn\day8\src
++incdir+d:\APP\APP_code\VM_share\IC_learn\tail_lamp_ctrl
++incdir+d:\APP\APP_code\VM_share\IC_learn\day1\D
++incdir+d:\APP\APP_code\VM_share\IC_learn\day1\fsm
++incdir+d:\APP\APP_code\VM_share\IC_learn\day1\reg_with_en
++incdir+d:\APP\APP_code\VM_share\IC_learn\day2\rtl
++incdir+d:\APP\APP_code\VM_share\IC_learn\day2\sim
++incdir+d:\APP\APP_code\VM_share\IC_learn\day5
++incdir+d:\APP\APP_code\VM_share\IC_learn\day6
++incdir+d:\APP\APP_code\VM_share\IC_learn\day7\src
++incdir+d:\APP\APP_code\VM_share\IC_learn\day8\src
++incdir+d:\APP\APP_code\VM_share\IC_learn\tail_lamp_ctrl
