@@ -1,0 +1,28 @@
+UVM_HOME = /tools/synopsys/vcs-mx/vcs-mx/O-2018.09-SP2/etc/uvm-1.2
+
+VERDI_HOME = /tools/synopsys/verdi/verdi/Verdi_O-2018.09-SP2
+
+.PHONY : COMPILE
+
+COMPILE:
+	vcs -full64 -sverilog -debug_all \
+ +incdir+$(UVM_HOME)/src \
+ $(UVM_HOME)/src/uvm_pkg.sv \
+$(UVM_HOME)/src/dpi/uvm_dpi.cc \
+-P $(VERDI_HOME)/share/PLI/VCS/LINUXAMD64/novas.tab $(VERDI_HOME)/share/PLI/VCS/LINUXAMD64/pli.a \
+ -CFLAGS -DVCS -cm tgl  -timescale=1ns/1ps  -f filelist
+
+.PHONY : SIMULATION
+
+SIMULATION:
+	./simv -cm tgl +UVM_TESTNAME=my_sequence
+
+.PHONY : URG
+
+URG:
+	urg -full64 -dir /home/eda/Documents/vec_dot/simv.vdb  -report coverage_report -format both
+
+.PHONY : clean
+
+clean: 
+	-rm tr_db.log ucli.key vc_hdrs.h tb.fsdb simv     -r csrc simv.daidir simv.vdb

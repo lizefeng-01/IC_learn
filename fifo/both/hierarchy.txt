@@ -1,0 +1,23 @@
+Design Hierarchy
+
+
+----------------
+SCORE  LINE   TOGGLE FSM           
+ 99.16 100.00  98.33 --     top_tb 
+  
+  ----------------
+  SCORE  LINE   TOGGLE FSM               
+   99.31 100.00  98.62 --     asyn_fifo1 
+    
+    ----------------
+    SCORE  LINE   TOGGLE FSM                 
+    100.00 100.00 100.00 --     fifomem11    
+     97.79 100.00  95.59 --     rpte_empty11 
+    100.00 100.00 100.00 --     sync_r2w11   
+    100.00 100.00 100.00 --     sync_w2r11   
+    100.00 100.00 100.00 --     wptr_full11  
+  
+  ----------------
+  SCORE  LINE   TOGGLE FSM           
+   95.83 --      95.83 --     my_if1 
+

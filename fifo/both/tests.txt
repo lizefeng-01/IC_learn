@@ -1,0 +1,12 @@
+Tests
+
+Total Coverage Summary 
+SCORE  LINE   TOGGLE FSM    GROUP  
+ 99.44 100.00  98.33 --     100.00 
+
+
+Total tests in report: 1
+-------------------------------------------------------------------------------
+Data from the following tests was used to generate this report
+/home/fguo/Desktop/fifo/simv/test 
+

@@ -1,0 +1,148 @@
+Group : $unit::my_driver::cov_label
+
+===============================================================================
+Group : $unit::my_driver::cov_label
+===============================================================================
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING 
+100.00 100.00    1      100    1        1            64           64            
+
+
+Source File(s) : 
+
+/home/fguo/Desktop/fifo/my_driver.sv
+
+1 Instances:
+
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING NAME                    
+100.00 1      100    1        2            64            top_tb.me.obj.cov_label 
+
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group   $unit::my_driver::cov_label
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+
+
+Variables for Group  $unit::my_driver::cov_label
+
+
+VARIABLE      EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+my_if2.wfull  2        0         2       100.00  100  1      1        2                    
+my_if2.rempty 2        0         2       100.00  100  1      1        2                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable my_if2.wfull
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for my_if2.wfull
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 15    1        
+auto[1] 421   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable my_if2.rempty
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for my_if2.rempty
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 429   1        
+auto[1] 7     1        
+
+
+-------------------------------------------------------------------------------
+===============================================================================
+Group Instance : top_tb.me.obj.cov_label
+===============================================================================
+SCORE  WEIGHT GOAL   AT LEAST AUTO BIN MAX PRINT MISSING 
+100.00 1      100    1        2            64            
+
+
+Group:
+
+SCORE  INSTANCES WEIGHT GOAL   AT LEAST PER INSTANCE AUTO BIN MAX PRINT MISSING COMMENT NAME                        
+100.00 100.00    1      100    1        1            64           64                    $unit::my_driver::cov_label 
+
+
+
+-------------------------------------------------------------------------------
+
+Summary for Group Instance   top_tb.me.obj.cov_label
+
+
+
+CATEGORY  EXPECTED UNCOVERED COVERED PERCENT 
+Variables 4        0         4       100.00  
+
+
+Variables for Group Instance  top_tb.me.obj.cov_label
+
+
+VARIABLE      EXPECTED UNCOVERED COVERED PERCENT GOAL WEIGHT AT LEAST AUTO BIN MAX COMMENT 
+my_if2.wfull  2        0         2       100.00  100  1      1        2                    
+my_if2.rempty 2        0         2       100.00  100  1      1        2                    
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable my_if2.wfull
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for my_if2.wfull
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 15    1        
+auto[1] 421   1        
+
+
+-------------------------------------------------------------------------------
+
+Summary for Variable my_if2.rempty
+
+
+CATEGORY                     EXPECTED UNCOVERED COVERED PERCENT 
+Automatically Generated Bins 2        0         2       100.00  
+
+
+Automatically Generated Bins for my_if2.rempty
+
+
+Bins
+
+NAME    COUNT AT LEAST 
+auto[0] 429   1        
+auto[1] 7     1        
+
+

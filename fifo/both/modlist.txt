@@ -1,0 +1,19 @@
+Design Module List
+
+Total Module Definition Coverage Summary 
+SCORE  LINE   TOGGLE FSM    
+ 99.16 100.00  98.33 --     
+
+
+Total modules in report: 8
+-------------------------------------------------------------------------------
+SCORE  LINE   TOGGLE FSM    NAME       
+ 95.83 --      95.83 --     my_if      
+ 97.79 100.00  95.59 --     rptr_empty 
+ 98.08 --      98.08 --     asyn_fifo  
+100.00 100.00 100.00 --     sync_w2r   
+100.00 100.00 100.00 --     wptr_full  
+100.00 100.00 100.00 --     fifomem    
+100.00 100.00 100.00 --     sync_r2w   
+100.00 100.00 100.00 --     top_tb     
+

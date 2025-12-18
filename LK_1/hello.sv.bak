@@ -1,0 +1,9 @@
+module tb;
+
+   initial begin
+   $display("hello word");
+
+   end
+
+
+endmodule
